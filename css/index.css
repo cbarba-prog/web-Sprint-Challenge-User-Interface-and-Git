@@ -47,6 +47,20 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -64,6 +78,41 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+
+.topline{
+    display:flex;
+    justify-content: flex-start;
+
+  padding:2%;
+  padding-bottom:5%;
+}
+
+header {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom:2%;
+    
+}
+
+
+   
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2% 0 80px;
+    font-size: 14px;
+    
+}
+
+
+
+header nav a {
+    color:black;
+    text-decoration: none;
 }
 
 .container {
@@ -99,9 +148,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,12 +160,55 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
+
+.middle-content .boxes .box1{
+    background-color:teal;
+}
+
+.middle-content .boxes .box2{
+    background-color:gold;
+}
+
+.middle-content .boxes .box3{
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background-color:coral;
+}
+
+.middle-content .boxes .box5{
+    background-color:crimson;
+}
+
+.middle-content .boxes .box6{
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background-color:hotpink;
+}
+
+.middle-content .boxes .box9{
+    background-color:indigo;
+}
+
+.middle-content .boxes .box10{
+    background-color:dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    
 }
 
 .bottom-content .text-container {
@@ -128,7 +221,8 @@ p {
 
 footer {
     width: 100%;
-    background: black;
+    background: black
+    
 }
 
 footer nav {
@@ -138,9 +232,77 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* ABOUT PAGE EXCLUSIVE LINKS */
+
+.about{
+    padding:0 2% 3% 2%;
+    border-bottom:black 3px dotted;
+     margin-bottom:5%;
+}
+
+.fourblocks{
+    
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+
+    }
+.fourblocks .pic1{
+    display:block;
+    width:47%;
+    border-bottom:black 3px dotted;
+    margin-bottom:2%;
+}
+
+.fourblocks .pic2{
+    display:block;
+    width:47%;
+    border-bottom:black 3px dotted;
+    margin-bottom:2%;
+}
+
+.fourblocks .pic3{
+    display:block;
+    width:47%;
+    border-bottom:black 3px dotted;
+}
+
+.fourblocks .pic4{
+    display:block;
+    width:47%;
+    border-bottom:black 3px dotted;
+}
+
+
+.fourblocks h2{
+    padding-top:2%;
+}
+
+.fourblocks p{
+  margin:4% 0;
+  
+  
+}
+
+.fourblocks button{
+    border-radius:10%;
+    padding:2%;
+    margin-bottom:5%;
+    border-bottom:black 3px dotted;
+    
+}
+
+
+
+.letswork{
+    padding:5% 2%;
 }
