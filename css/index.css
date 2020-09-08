@@ -246,28 +246,61 @@ footer nav a {
 .about{
     padding:0 2% 3% 2%;
     border-bottom:black 3px dotted;
+     margin-bottom:5%;
 }
 
 .fourblocks{
-    display:inline;
-  flex-direction:row;
-  flex-wrap:wrap;
-  align-items:center;
+    
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+
+    }
+.fourblocks .pic1{
+    display:block;
+    width:47%;
+    border-bottom:black 3px dotted;
+    margin-bottom:2%;
+}
+
+.fourblocks .pic2{
+    display:block;
+    width:47%;
+    border-bottom:black 3px dotted;
+    margin-bottom:2%;
+}
+
+.fourblocks .pic3{
+    display:block;
+    width:47%;
+    border-bottom:black 3px dotted;
+}
+
+.fourblocks .pic4{
+    display:block;
+    width:47%;
+    border-bottom:black 3px dotted;
+}
+
+
+.fourblocks h2{
+    padding-top:2%;
 }
 
 .fourblocks p{
-    width:50%;
   margin:4% 0;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  border-bottom:black 3px dotted;
+  
+  
 }
 
 .fourblocks button{
     border-radius:10%;
     padding:2%;
+    margin-bottom:5%;
+    border-bottom:black 3px dotted;
+    
 }
+
 
 
 .letswork{
